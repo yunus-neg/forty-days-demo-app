@@ -52,7 +52,7 @@ class LoginScreen extends React.Component {
               // justifyContent: "center"
 
             }}
-            source={require("../../assets/logo.png")}
+            source={require("../assets/profile.png")}
           />
 
           <KeyboardAvoidingView style={sty.containerView} behavior="padding">

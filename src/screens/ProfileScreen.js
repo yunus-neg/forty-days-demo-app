@@ -39,7 +39,7 @@ class ProfileScreen extends React.Component {
             onPress={() => this.props.navigation.navigate("UserScreen")}
           >
             <Image
-              source={require("../../assets/profile.png")}
+              source={require("../assets/profile.png")}
               style={sty.ImageIconStyle}
             />
             <View style={sty.SeparatorLine} />
@@ -52,7 +52,7 @@ class ProfileScreen extends React.Component {
             onPress={() => this.props.navigation.navigate("NotfScreen")}
           >
             <Image
-              source={require("../../assets/notif.png")}
+              source={require("../assets/notif.png")}
               style={sty.ImageIconStyle}
             />
             <View style={sty.SeparatorLine} />
@@ -65,7 +65,7 @@ class ProfileScreen extends React.Component {
             onPress={() => this.props.navigation.navigate("TasksScreen")}
           >
             <Image
-              source={require("../../assets/task.png")}
+              source={require("../assets/task.png")}
               style={sty.ImageIconStyle}
             />
             <View style={sty.SeparatorLine} />
@@ -78,7 +78,7 @@ class ProfileScreen extends React.Component {
             onPress={() => this.props.navigation.navigate("CourseScreen")}
           >
             <Image
-              source={require("../../assets/course.png")}
+              source={require("../assets/course.png")}
               style={sty.ImageIconStyle}
             />
             <View style={sty.SeparatorLine} />

@@ -44,7 +44,7 @@ class UserScreen extends React.Component {
           <View style={sty.loginScreenContainer}>
             <View style={sty.loginFormView}>
               <Image
-                source={require("../../assets/profile.png")}
+                source={require("../assets/profile.png")}
                 style={{
                   padding: 0,
                   marginTop: 10,
@@ -103,7 +103,7 @@ class UserScreen extends React.Component {
                 onPress={() => this.props.navigation.navigate("SkillsScreen")}
               >
                 <Image
-                  source={require("../../assets/skills.png")}
+                  source={require("../assets/skills.png")}
                   style={sty.ImageIconStyle}
                 />
                 <View style={sty.SeparatorLine} />

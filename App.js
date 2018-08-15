@@ -15,7 +15,6 @@ import SkillsScreen from './src/screens/skills';
 import EditinfoScreen from './src/screens/edit';
 import LoadingScreen from './src/screens/loading'
 
-  // Initialize Firebase
 
 
 const AppNavigator = createStackNavigator({
